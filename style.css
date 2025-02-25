@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(91deg, violet, darkblue);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 80px 0 0 100px;
+    border: 2px solid black;
+    height: 65vh;
+    width: 30vw;
+    border-radius: 10px;
+    padding-top: 30px;
+    
+}
+
+.container h1 {
+    text-align: center;
+    color: #f1ebe2;
+}
+
+.form {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    color: rgb(199, 190, 183);
+    font-size: 20px;
+}
+
+.btn {
+    height: 100px;
+    width: 80px;
+    justify-content: center; 
+    
+}
