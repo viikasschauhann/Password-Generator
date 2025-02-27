@@ -19,10 +19,15 @@ class Password {
           i += 3
         }
         this.pass = this.pass.substr(0, len)
-        return this.pass
+        return this.pass;
       }
     }
   }
   
-  let p = new Password()
-  generatePassword(document.getElementById("len").innerHTML)
+  function generatePassword(){
+    let len = parseInt(document.getElementById("len").value);
+    let p = new Password();
+    let ans = p.generatePassword(len);
+    document.querySelector(".result").innerHTML = ans;
+  }
+ 
