@@ -41,6 +41,7 @@ body {
 }
 
 .container h1 {
+    font-family: cursive;
     text-align: center;
     color: #f1ebe2;
 }
@@ -74,9 +75,9 @@ label #len {
 .result {
     height: 40px;
     width: 150px;
-    background-color: sienna;
+    background-color: #30d1d1;
     border: 2px solid black;
-    margin: 10px 0 0 180px;
+    margin: 4px 0 0 180px;
     padding: 5px;
     font-size: 16px;
     font-weight: bold;
@@ -85,7 +86,7 @@ label #len {
 
 .container .btn {
     height: 100px;  
-    margin-top: 40px;
+    margin-top: 30px;
     
 }
 
@@ -103,4 +104,5 @@ button {
 button:hover {
     background-color: rgb(10 2 30);
     color: rgb(20 91 206);
+   
 }
